@@ -19,7 +19,7 @@ if 'data' not in st.session_state:
         columns=[vars[0], vars[1], vars[2], vars[3],vars[4],vars[5],'Prediction Label','Label'])
 
 # 在主页面上显示数据
-st.header('30-day mortality of HL patients in ICU based on GBDT')
+st.header('30-day mortality of HL patients in ICU based on GBM')
 
 # st.markdown("### 本地图片示例")
 # 创建两列布局
